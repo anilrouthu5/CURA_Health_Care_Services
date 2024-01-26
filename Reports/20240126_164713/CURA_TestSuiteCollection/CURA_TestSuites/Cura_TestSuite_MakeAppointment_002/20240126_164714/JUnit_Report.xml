@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Cura_TestSuite_MakeAppointment_002" time="11.404" tests="1" failures="0" errors="0">
+   <testsuite name="Cura_TestSuite_MakeAppointment_002" tests="1" failures="0" errors="0" time="11.404" skipped="0" timestamp="26-01-2024T16:47:19" hostname="anilr - host.docker.internal" id="Test Suites/CURA_TestSuiteCollection/CURA_TestSuites/Cura_TestSuite_MakeAppointment_002">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\anilr\\SI-GuidedProject-704064-1704718588\\Reports\\20240126_164713\\CURA_TestSuiteCollection\\CURA_TestSuites\\Cura_TestSuite_MakeAppointment_002\\20240126_164714"/>
+         <property name="logFiles" value="C:\\Users\\anilr\\SI-GuidedProject-704064-1704718588\\Reports\\20240126_164713\\CURA_TestSuiteCollection\\CURA_TestSuites\\Cura_TestSuite_MakeAppointment_002\\20240126_164714\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="anilr - host.docker.internal"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.29.103"/>
+         <property name="sessionId" value="97f373d0fbe9f2e9b44d085e0cdea43d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC_CURA MakeAppointmentvalidation_002" time="11.213" classname="Test Cases/TC_CURA MakeAppointmentvalidation_002" status="PASSED">
+         <system-out><![CDATA[26-01-2024T16:47:19 - [TEST_CASE][PASSED] - Test Cases/TC_CURA MakeAppointmentvalidation_002: Test Cases/TC_CURA MakeAppointmentvalidation_002
+
+26-01-2024T16:47:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-01-2024T16:47:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-01-2024T16:47:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-01-2024T16:47:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-01-2024T16:47:21 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/profile.php#login"): Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+26-01-2024T16:47:24 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+26-01-2024T16:47:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+26-01-2024T16:47:24 - [MESSAGE][PASSED] - Object: 'Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+26-01-2024T16:47:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/input_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/input_username'
+
+26-01-2024T16:47:25 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/input_username'
+
+26-01-2024T16:47:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/input_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/input_password'
+
+26-01-2024T16:47:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/input_password'
+
+26-01-2024T16:47:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+26-01-2024T16:47:27 - [MESSAGE][PASSED] - Object: 'Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+26-01-2024T16:47:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar")): Object: 'Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+26-01-2024T16:47:27 - [MESSAGE][PASSED] - Object: 'Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+26-01-2024T16:47:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/td_28")): Object: 'Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/td_28' is clicked on
+
+26-01-2024T16:47:28 - [MESSAGE][PASSED] - Object: 'Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/td_28' is clicked on
+
+26-01-2024T16:47:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/textarea_comment"), "Regular Body Checkup"): Text 'Regular Body Checkup' is set on object 'Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/textarea_comment'
+
+26-01-2024T16:47:29 - [MESSAGE][PASSED] - Text 'Regular Body Checkup' is set on object 'Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/textarea_comment'
+
+26-01-2024T16:47:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+26-01-2024T16:47:30 - [MESSAGE][PASSED] - Object: 'Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+26-01-2024T16:47:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+26-01-2024T16:47:30 - [MESSAGE][PASSED] - Object: 'Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+26-01-2024T16:47:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-01-2024T16:47:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-01-2024T16:47:19 - [TEST_SUITE][PASSED] - Cura_TestSuite_MakeAppointment_002: Test Cases/TC_CURA MakeAppointmentvalidation_002]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cura_TestSuite_MakeAppointment_002,Chrome 120.0.0.0,,,26-01-2024 16:47:19,26-01-2024 16:47:31,11.404s,PASSED
+,,,,,,,
+Test Cases/TC_CURA MakeAppointmentvalidation_002,Chrome 120.0.0.0,,,26-01-2024 16:47:19,26-01-2024 16:47:31,11.213s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-01-2024 16:47:20,26-01-2024 16:47:21,1.692s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/profile.php#login"")",Chrome 120.0.0.0,,,26-01-2024 16:47:21,26-01-2024 16:47:24,2.646s,PASSED
+"click(findTestObject(""Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 120.0.0.0,,,26-01-2024 16:47:24,26-01-2024 16:47:24,0.482s,PASSED
+"setText(findTestObject(""Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/input_username""), ""John Doe"")",Chrome 120.0.0.0,,,26-01-2024 16:47:24,26-01-2024 16:47:25,0.736s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/input_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 120.0.0.0,,,26-01-2024 16:47:25,26-01-2024 16:47:26,0.436s,PASSED
+"click(findTestObject(""Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/button_Login""))",Chrome 120.0.0.0,,,26-01-2024 16:47:26,26-01-2024 16:47:27,1.335s,PASSED
+"click(findTestObject(""Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar""))",Chrome 120.0.0.0,,,26-01-2024 16:47:27,26-01-2024 16:47:27,0.513s,PASSED
+"click(findTestObject(""Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/td_28""))",Chrome 120.0.0.0,,,26-01-2024 16:47:27,26-01-2024 16:47:28,0.598s,PASSED
+"setText(findTestObject(""Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/textarea_comment""), ""Regular Body Checkup"")",Chrome 120.0.0.0,,,26-01-2024 16:47:28,26-01-2024 16:47:29,0.876s,PASSED
+"click(findTestObject(""Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 120.0.0.0,,,26-01-2024 16:47:29,26-01-2024 16:47:30,0.695s,PASSED
+"click(findTestObject(""Object Repository/CuraPage MakeAppointmentValidation OR/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 120.0.0.0,,,26-01-2024 16:47:30,26-01-2024 16:47:30,0.802s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,26-01-2024 16:47:30,26-01-2024 16:47:31,0.140s,PASSED

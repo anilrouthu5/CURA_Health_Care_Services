@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20240126_164713</name>
+   <tag></tag>
+   <displayName>20240126_164713</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20240126_164713/CURA_TestSuiteCollection/CURA_TestSuites/Cura_TestSuite_MakeAppointment_002/20240126_164714</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/CURA_TestSuiteCollection/CURA TestSuiteCollection MakeAppointment 002</testSuiteCollectionId>
+</ReportCollectionEntity>
